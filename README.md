@@ -28,16 +28,26 @@ npm run dev
 npm run build
 ```
 
-###
-My project functions by making CRUD requests to a server. I implemented this using a Fake API with JSON Server. If you want to try out this project, I recommend cloning the repository and replacing the Fake API with the jobs.json file found in the project.
+### For backend
+My project functions by making CRUD requests to a server. I implemented this using a Fake API with JSON Server. If you want to try out this project, I recommend cloning the repository and following the mentioned steps:
 
-This file already contains all the jobs data, and all you need to do add the following in the "scripts" in "server" in the package.json :
-
+STEP 1: Install npm json-server
 ```sh
-json-server --watch src/jobs.json --port 8000
+npm i json-server
 ```
-and run the following in the terminal :
 
+STEP 2: add the following in the "scripts" in the package.json :
+```sh
+"server": "json-server --watch src/jobs.json --port 8000"
+```
+
+STEP 3: make sure in vite.config.js inside the server object in the export, this key-value pair is present
+```sh
+target: 'http://localhost:8000',
+```
+
+STEP 4: Run the server in the terminal using npm run server
 ```sh
 npm run server
 ```
+(vue-app\src\assets\img\image.png)
