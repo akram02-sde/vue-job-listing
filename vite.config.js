@@ -12,7 +12,7 @@ export default defineConfig({
     port: 3001,
     proxy: { //proxying
       '/api' : {
-        target: 'http://localhost:8000',
+        target: 'https://my-json-server.typicode.com/akram02-sde/vue-server',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
