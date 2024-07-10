@@ -12,7 +12,7 @@ export default defineConfig({
     port: 3001,
     proxy: { //proxying
       '/api' : {
-        target: 'http://localhost:8000',
+        target: 'https://server-v0o2.onrender.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
