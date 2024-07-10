@@ -50,4 +50,4 @@ STEP 4: Run the server in the terminal using npm run server
 ```sh
 npm run server
 ```
-(vue-app\src\assets\img\image.png)
+![image](https://github.com/akram02-sde/vue-job-listing/assets/68415682/6df4232b-6e6f-4349-9aa2-2ef8976084a6)
