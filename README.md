@@ -1,6 +1,6 @@
 # vue-app
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with Vue 3 in Vite. This project uses a mock API so to view the project with complete list of users follow the below steps.
 
 ## Project Clone
 ```sh
@@ -17,10 +17,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
